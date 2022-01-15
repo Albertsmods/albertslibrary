@@ -1,3 +1,2 @@
-# Alberts library
-This mod gives mod developers easier access to custom block classes and more coming soon.
-# MDK
+# Alberts Library
+This library gives you access to custom block classes and more (In the future)
