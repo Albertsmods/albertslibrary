@@ -1,0 +1,30 @@
+modLoader="javafml"
+loaderVersion="[39,)"
+issueTrackerURL="https://github.com/AlbertsMods/albertslibrary/issues"
+displayURL="https://www.curseforge.com/minecraft/mc-mods/alberts-library"
+license="GPL-3.0"
+[[mods]]
+modId="albertslibrary"
+version="${file.jarVersion}"
+displayName="Alberts Library"
+logoFile="logo.png"
+credits=""
+authors="Albertsmods"
+description='''
+A library mod that gives modders access to new types of blocks and items and probably more in the future.
+
+Features included in this library may seem random, they are mainly things I need/use for my mods that I have decided to share.
+'''
+[[dependencies.albertslibrary]]
+    modId="forge"
+    mandatory=true
+    versionRange="[39,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.albertslibrary]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.18.1,1.19)"
+    ordering="NONE"
+    side="BOTH"
