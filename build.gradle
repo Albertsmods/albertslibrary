@@ -30,8 +30,8 @@ apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 apply plugin: 'maven-publish'
 
-version = '3.0.0'
-group = 'com.albertsmods.albertslibrary'
+version = '3.0.1'
+group = 'library.albertsmods.albertslibrary'
 archivesBaseName = 'albertslibrary'
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
